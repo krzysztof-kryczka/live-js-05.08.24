@@ -35,6 +35,12 @@ const colors = [
 ];
 
 const container = document.querySelector(".buttons-container");
+const select = document.querySelector("#stylization");
+
+function handleButton() {
+  const selectedOption = select.value;
+  alert(`Wybrano opcję: ${selectedOption}`);
+}
 
 for (let i = 0; i < colors.length; i++) {
   const button = document.createElement("button");
@@ -42,4 +48,5 @@ for (let i = 0; i < colors.length; i++) {
   button.classList.add("przycisk");
   button.style.backgroundColor = colors[i];
   container.appendChild(button);
+  button.addEventListener("click", handleButton);
 }
