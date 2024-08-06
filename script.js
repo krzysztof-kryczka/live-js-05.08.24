@@ -39,7 +39,13 @@ const select = document.querySelector("#stylization");
 
 function handleButton() {
   const selectedOption = select.value;
-  alert(`Wybrano opcję: ${selectedOption}`);
+  const paragraf = document.querySelector("p");
+  if (selectedOption === "text") {
+    paragraf.style.color = this.style.backgroundColor;
+  } else if (selectedOption === "background") {
+    paragraf.style.backgroundColor = this.style.backgroundColor;
+  }
+  //  alert(`Wybrano opcję: ${selectedOption}`);
 }
 
 for (let i = 0; i < colors.length; i++) {
