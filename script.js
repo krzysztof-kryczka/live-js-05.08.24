@@ -33,3 +33,11 @@ const colors = [
   "#808080",
   "#800000",
 ];
+
+const container = document.querySelector(".buttons-container");
+
+for (let i = 0; i < colors.length; i++) {
+  const button = document.createElement("button");
+  button.textContent = `Przycisk ${i + 1}`;
+  container.appendChild(button);
+}
