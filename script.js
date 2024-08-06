@@ -38,6 +38,8 @@ const container = document.querySelector(".buttons-container");
 
 for (let i = 0; i < colors.length; i++) {
   const button = document.createElement("button");
-  button.textContent = `Przycisk ${i + 1}`;
+  //button.textContent = `Przycisk ${i + 1}`;
+  button.classList.add("przycisk");
+  button.style.backgroundColor = colors[i];
   container.appendChild(button);
 }
