@@ -21,3 +21,5 @@ który chcemy wykorzystać, a po ich kliknięciu wybrany kolor zostanie zastosow
 5. Dostosuj funkcję handleButton, po kliknieciu której zmieni się kolor tekstu paragrafu, gdy wartość select będzie ustawiona na opcję "text"
 
 6. Dostosuj funkcję handleButton, po kliknieciu której zmieni się kolor tekstu paragrafu, gdy wartość select będzie ustawiona na opcję "background"
+
+DEMO: https://krzysztof-kryczka.github.io/live-js-05.08.24/
